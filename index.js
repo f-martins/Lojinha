@@ -18,7 +18,7 @@ app.use(helmet()); //dica de segurança / proteção
 app.use(cors);
 
 autenticacaoRoute(app);
-app.use(auth);
+///app.use(auth);
 
 clienteTipoRoute(app);
 
